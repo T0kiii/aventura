@@ -1,0 +1,8 @@
+{
+  "intro": "Te encuentras en la entrada de un misterioso bosque. ¿Qué harás?",
+  "responses": [
+    "Explorar el bosque",
+    "Regresar a la aldea",
+    "Esperar hasta el amanecer"
+  ]
+}

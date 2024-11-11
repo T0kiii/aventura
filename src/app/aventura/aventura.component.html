@@ -1,0 +1,16 @@
+<main class="main">
+  <app-navbar></app-navbar>
+  <div class="aventura-container">
+    <!-- Enunciado -->
+    <div class="enunciado">
+      <p>{{ enunciado }}</p>
+    </div>
+
+    <!-- Respuestas -->
+    <div class="respuestas">
+      <div *ngFor="let respuesta of respuestas" class="respuesta-box">
+        {{ respuesta }}
+      </div>
+    </div>
+  </div>
+</main>
